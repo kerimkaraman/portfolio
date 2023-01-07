@@ -1,0 +1,8 @@
+.welcome-page {
+    width: 100%;
+}
+
+.welcome-page .welcome-wrapper {
+    width: max-content;
+    margin: 30vh auto;
+}

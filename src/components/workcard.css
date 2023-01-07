@@ -1,0 +1,36 @@
+.workcard {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 4rem 0rem;
+}
+
+.workcard .icons-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.workcard .icons-area .icons img{
+    width: 25px;
+}
+
+.workcard .links-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.workcard .links-area a {
+    text-decoration: none;
+    color: black;
+}
+
+.workcard .links-area a:hover {
+    transform: scale(1.2);
+    color: #FECC42;
+}

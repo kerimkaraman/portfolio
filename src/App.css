@@ -1,0 +1,165 @@
+.light-mode {
+  background-color: #fff;
+  color: #000;
+  transition: 0.5s all;
+  transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+}
+
+.dark-mode {
+  background-color: #000;
+  color: white;
+  transition: 0.5s all;
+  transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+}
+
+.dark-mode button {
+  color: white;
+}
+
+.dark-mode .resume-button {
+  color: black;
+}
+
+.dark-mode .info-area .connect-button a {
+  background-color: #fff;
+  color: #000;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 25rem;
+}
+
+header .header-logo img {
+  width: 50px;
+}
+
+header .header-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+header .header-links .resume-button {
+  background-color: #FECC42;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border: none;
+  gap: 1rem;
+  border-radius: 30px;
+}
+
+header .header-links .resume-button img {
+  width: 20px;
+  margin: 0 auto;
+}
+
+header .header-links .mode-button img {
+  width: 25px;
+  height: 25px;
+}
+
+header .header-links button:hover {
+  cursor: pointer;
+}
+
+header .header-links button {
+  background: none;
+  border: none;
+}
+
+/* INFO AREA */
+
+.info-area {
+  width: 60%;
+  margin: 5rem auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  padding: 4rem 0rem;
+  border-bottom: 1px solid #c3c3c3;
+}
+
+.info-area .info-image {
+  width: 10%;
+  margin: 0 auto;
+}
+
+.info-area .info-image img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.info-area .info-name-area {
+  font-size: 2rem;
+}
+
+.info-area .info-typewriter-area {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.info-area .connect-button a {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 30px;
+}
+
+/* WORKS AREA */
+
+.works-area {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem 0rem;
+  gap: 3rem;
+}
+
+.works-area h1 {
+  font-size: 2rem;
+}
+
+.works-area .works-items {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 2rem;
+}
+
+.dark-mode .workcard .links-area a {
+  text-decoration: none;
+  color: white;
+}
+
+.see-more-area {
+  width: max-content;
+  margin: 0 auto;
+}
+
+.dark-mode .see-more-area a {
+  text-decoration: none;
+  color: white;
+}
+
+.see-more-area a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;  
+}
+
+.see-more-area a:hover {
+  color: #FECC42; 
+}
